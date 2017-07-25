@@ -1,6 +1,5 @@
 package com.simformsolutions.ashutoshtiwari.frescosampleapp;
 
-import android.content.res.Resources;
 import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
@@ -25,8 +24,6 @@ public class MainActivity extends AppCompatActivity {
 
         draweeViewCircle.setImageURI(uri);
 
-        Resources.Theme theme = getTheme();
-        int overlayColor = getResources().getColor(R.color.colorAccent, theme);
         RoundingParams roundingParams = RoundingParams.fromCornersRadius(16f);
         draweeViewRoundedCorners.setHierarchy(
                 new GenericDraweeHierarchyBuilder(getResources())
