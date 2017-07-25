@@ -1,4 +1,4 @@
-package com.simformsolutions.ashutoshtiwari.frescosampleapp;
+package com.simformsolutions.ashutoshtiwari.frescosampleapp.view;
 
 import android.app.Application;
 

@@ -1,1 +1,1 @@
-#FrescoSampleApp - The master branch app demonstrates sample use of Fresco Image Management Library in Android without following any specific development arcitecture.
+#FrescoSampleApp - This feature branch of the app demonstrates the use of Fresco using MVVM with data binding application architeture
